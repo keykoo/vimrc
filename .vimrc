@@ -14,10 +14,12 @@ set ignorecase
 
 " Use spaces instead of tabs
 set expandtab
+set smartindent
 
 " 1 tab == 2 spaces
 set shiftwidth=2
 set tabstop=2
+set softtabstop=2
 
 " Enable syntax highlighting
 syntax enable
@@ -27,3 +29,6 @@ set colorcolumn=80
 
 " turn off wordwrap
 set nowrap
+
+" show line numbers
+set number
